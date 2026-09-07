@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+.DS_Store
+*.log
+uploads/
+reports/generated/
+models/*.pt
+models/*.onnx
+# AI model weights
+*.pt
+
+# Generated reports and uploaded images
+backend/reports/generated/
+backend/reports/uploads/
+
+# Python cache
+__pycache__/
+*.pyc

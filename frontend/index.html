@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VisionInspect-AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>VisionInspect-AI</h1>
+      <p>AI-assisted smartphone mechanical component inspection</p>
+    </header>
+
+    <section class="card">
+      <h2>Inspection Capture</h2>
+      <input id="imageInput" type="file" accept="image/*" capture="environment">
+      <div id="preview"></div>
+      <button id="inspectBtn" disabled>Run Inspection</button>
+    </section>
+
+    <section class="card" id="statusCard">
+      <h2>System Status</h2>
+      <p id="status">Checking backend...</p>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
